@@ -15,9 +15,9 @@ public class EmployeInsertion {
 		Session session = factory.openSession();
 		Transaction transaction = session.beginTransaction();
 		Employee employee = new Employee();
-		employee.setEmployee_id(2);
-		employee.setFirstname("Pooja ");
-		employee.setLastname("Ahuja ");
+		employee.setEmployee_id(3);
+		employee.setFirstname("Rasmita");
+		employee.setLastname("Patra");
 		session.save(employee);
 		transaction.commit();
 
